@@ -1,10 +1,15 @@
-# LogHawk 2.0 – Multi‑Log SIEM‑Style Analyzer
+# LogHawk 2.0 – Multi-Log Security Analyzer (SIEM Style)
 
-This is the professional multi-log version of LogHawk.
+LogHawk 2.0 is a beginner-friendly security log analyzer that works inside a colored TUI (Text UI).  
+It analyzes multiple types of logs:
 
-Features:
-- SSH, Firewall, IDS, Malware, Web, System analyzers
-- Auto log‑type classification
-- Machine learning anomaly detection
-- SIEM‑style JSON output
-- TUI interface
+- SSH logs  
+- Firewall logs  
+- IDS / IPS alerts  
+- Malware / AV logs  
+- Web server logs  
+- System logs  
+- Machine learning anomaly module (basic stub)
+
+All code for the tool is located inside the folder:
+
