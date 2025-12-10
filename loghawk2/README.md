@@ -13,3 +13,15 @@ It analyzes multiple types of logs:
 
 All code for the tool is located inside the folder:
 
+
+
+
+## 🚀 How to Download (Beginner Friendly)
+
+### Linux / Kali / Ubuntu:
+```bash
+wget https://github.com/CHIRAG11SEPT/cyber_tools/archive/refs/heads/main.zip -O cyber_tools.zip
+unzip cyber_tools.zip
+cd cyber_tools-main/loghawk2
+pip install -r requirements.txt
+python3 main.py
