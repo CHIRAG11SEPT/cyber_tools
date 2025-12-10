@@ -1,0 +1,40 @@
+LogHawk 2.0 Report
+{
+    "ssh": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "firewall": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "ids": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "malware": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "web": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "system": [
+        {
+            "type": "simple_alert",
+            "raw": "Dec 10 23:16:05 webserver apache: [error] [client 10.0.0.5] attempt to get file /admin/secret.php without authorization"
+        }
+    ],
+    "ml": []
+}
